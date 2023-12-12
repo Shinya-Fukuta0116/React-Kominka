@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
 
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
             </div>
             <div class="col-lg-8 align-self-baseline">
               <p class="text-white-75 mb-5">with the best foods and cafe</p>
-              <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+              <Button variant="secondary">Find Out More</Button>
             </div>
           </div>
         </div>

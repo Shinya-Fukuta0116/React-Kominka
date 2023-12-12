@@ -9,8 +9,8 @@ header{
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: rgb(108, 107, 107);
-  color: rgba(210, 192, 192, 0.927);
+  background-color: rgb(51, 60, 53);
+  color: rgba(210, 192, 192, 0.899);
   /* position: fixed; */
   height: 60px;
   z-index: 10;
@@ -45,7 +45,8 @@ nav ul li a:hover{
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("./components/Home/Kominka.png");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(67, 57, 51, 0.8) 100%), url("./components/Home/Kominka.png"); */
+  background: url("./components/Home/Kominka.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
